@@ -1,0 +1,9 @@
+@model ProductManagement.Models.Product
+<h2>Ürünü Düzenle</h2>
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <label>Ad: <input asp-for="Name" /></label><br />
+    <label>Fiyat: <input asp-for="Price" /></label><br />
+    <label>Açıklama: <input asp-for="Description" /></label><br />
+    <button type="submit">Kaydet</button>
+</form>

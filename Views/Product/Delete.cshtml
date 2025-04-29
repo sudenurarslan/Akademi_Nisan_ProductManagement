@@ -1,0 +1,8 @@
+@model ProductManagement.Models.Product
+<h2>Silinecek Ürün</h2>
+<p>Ad: @Model.Name</p>
+<p>silmek istediğinize emin misiniz?</p>
+<form method="post" asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Sil</button>
+</form>
