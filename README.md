@@ -12,3 +12,13 @@ Bu proje, ASP.NET Core MVC kullanılarak geliştirilmiş bir CRUD (Create, Read,
 
 
 
+
+## Tech
+
+ASP.NET Core MVC, C#, Bootstrap
+
+## Run
+
+```bash
+dotnet run
+```
